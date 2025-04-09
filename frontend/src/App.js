@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -11,7 +10,8 @@ import Trends from './pages/Trends';
 import Hotels from './pages/Hotels';
 import Chatbot from './pages/Chatbot';
 import About from './pages/About';
-import BackendEmbed from './pages/BackendEmbed'; // Optional, for embedding the backend
+import BackendEmbed from './pages/BackendEmbed'; 
+
 function App() {
   return (
     <Router>
